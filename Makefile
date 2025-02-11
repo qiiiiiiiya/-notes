@@ -1,6 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -g
+
 TARGET = StringReplace
+
 all: $(TARGET)
 $(TARGET): $(TARGET).c
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
